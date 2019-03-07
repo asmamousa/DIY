@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Small Hacks</string>
+    <string name="error_log_in">Login Failed</string>
+    <string name="regiter_error">There is an error while signing up, please try again</string>
+    <string name="emptyField">fill the empty fields first</string>
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="signUp">Click here to Sign Up</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3179158580945836/3010907031</string>
+    <string name="tools">Tools: </string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="noData">The data requested is not existed </string>
+    <string name="ok">@android:string/ok</string>
+</resources>

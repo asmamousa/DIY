@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolName"
+        android:layout_marginBottom="@dimen/step"
+        android:background="@color/colorPrimary"
+        android:textSize="@dimen/details_Text_Size_19"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+</FrameLayout>

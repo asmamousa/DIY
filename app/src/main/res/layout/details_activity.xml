@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/playerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="0dp"
+        app:fastforward_increment="1000"
+        app:rewind_increment="1000"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolsHeader"
+        android:layout_marginBottom="@dimen/step"
+        android:background="@color/colorPrimary"
+        android:textSize="@dimen/details_Text_Size_19"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@id/playerView"
+        android:text="@string/tools"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/toolsInformation"
+        android:layout_below="@id/toolsHeader"/>
+
+
+</RelativeLayout>

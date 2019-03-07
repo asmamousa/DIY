@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "372409232960",
+    "firebase_url": "https://smallhacks-e619c.firebaseio.com",
+    "project_id": "smallhacks-e619c",
+    "storage_bucket": "smallhacks-e619c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372409232960:android:d42fa4cc1b3ea6dd",
+        "android_client_info": {
+          "package_name": "examples.android.example.com.diy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372409232960-e69jaued6knrlgov63po0cmu6o8gidhp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "examples.android.example.com.diy",
+            "certificate_hash": "3aa5e9a69d313063e60cb95ad6a7289a63ebaa0f"
+          }
+        },
+        {
+          "client_id": "372409232960-t5drc3lue6id828uvmj17a1tonl93mk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGfUt587ynRxQ2xjYOExJP2Um-ylTozzg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372409232960-t5drc3lue6id828uvmj17a1tonl93mk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
